@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Check argument.
 if [ $# != 1 ]; then
     echo "usage: "$0" [Target directory path]"
     exit
